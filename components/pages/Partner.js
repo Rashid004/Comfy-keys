@@ -22,7 +22,7 @@ function Partner() {
               tenant services. Our experienced team handles everything from
               maintenance and marketing to legal compliance and tenant
               relations, providing you with peace of mind and maximizing your
-              property's value. With transparent communication, tailored
+              property&apos;s value. With transparent communication, tailored
               solutions, and a commitment to excellence, Comfy Keys is your
               trusted partner in property management. Join us and experience the
               benefits of working with a reliable and dedicated team.
