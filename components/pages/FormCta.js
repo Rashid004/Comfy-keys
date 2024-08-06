@@ -6,7 +6,7 @@ function FormCta() {
   return (
     <section className="max-w-7xl mx-auto px-4 md:px-0">
       <div className="flex flex-col md:flex-row md:justify-end relative">
-        <div className="contact-info-box bg-[#18473D] text-white p-4 sm:p-6 md:p-10 w-[270px] h-auto md:w-[394px] md:h-[493px] md:absolute md:left-0 md:top-1/2 md:-translate-y-1/2 z-20 translate-y-32 translate-x-[25%] py-6 md:py-2">
+        <div className="contact-info-box bg-[#18473D] text-white p-2 sm:p-6 md:p-6 w-[250px] h-fit md:w-[394px] md:h-[450px] md:absolute md:left-2 md:translate-y-16 z-20 translate-y-24 translate-x-12 py-3 md:py-6">
           <h2 className="text-x sm:text-2xl font-semibold mb-6 sm:mb-8 md:text-nowrap text-center">
             Contact info
           </h2>
@@ -47,7 +47,7 @@ function FormCta() {
                   <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
                 </svg>
               </span>
-              <p className="text-sm sm:text-base ">sample.email@example.com</p>
+              <p className="text-sm sm:text-base ">sample.email@abc.com</p>
             </div>
           </div>
           <div className="flex items-center justify-center gap-4 sm:gap-6  mt-6 sm:mt-8">
@@ -91,7 +91,7 @@ function FormCta() {
         </div>
 
         {/* Form Box */}
-        <div className="border border-[#44D8B8] md:w-[calc(100%-200px)] min-h-[583px] z-10 p-8 md:p-16 shadow-md  mt-4 md:mt-0">
+        <div className="border border-[#44D8B8] w-[345px] h-[490px] md:w-[973px] md:h-[583px] min-h-[583px] z-10 p-8 md:p-16 shadow-md  mt-4 md:mt-0">
           <form className="flex flex-col gap-6 items-start justify-center md:max-w-[600px] md:ml-auto pt-32 md:pt-0">
             <h2 className="text-[#18473D] text-2xl font-semibold mb-8">
               Send a message

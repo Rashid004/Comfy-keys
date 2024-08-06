@@ -16,7 +16,7 @@ function Footer() {
       <div className="w-full px-4 py-12 md:py-16 flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col max-w-7xl mx-auto">
         <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center gap-14 order-first">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <div className="pt-4 font-medium text-gray-900 tracking-widest text-sm mb-0 md:mb-12 flex items-center md:items-start  justify-center ">
+            <div className="pt-4 font-medium  tracking-widest text-sm ml-0 md:-ml-14 mb-0 md:mb-12 flex items-center md:items-start  justify-center ">
               <Image
                 src="/images/Logo.svg"
                 alt="Logo"
@@ -26,9 +26,8 @@ function Footer() {
             </div>
             <nav className="list-none mb-10 md:flex items-start justify-end md gap-4 flex-col hidden ">
               <li>
-                <a className="text-[#FAFFF7]  ">
-                  1234 Elm Street, Suite 567 <br className="md:hidden" />,
-                  Springfield, 62704, United Kingdom
+                <a className="text-[#FAFFF7]">
+                  1234 Elm Street, Suite 567, Springfield, 62704, United Kingdom
                 </a>
               </li>
               <li>
@@ -41,21 +40,21 @@ function Footer() {
           </div>
           <div className="flex mb-8 md:mb-0 items-center justify-normal md:justify-between">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-semibold text-[#FAFFF7] tracking-normal  md:tracking-widest text-xl md:text-2xl font-[Resgak] pb-5">
+              <h2 className="font-semibold text-[#FAFFF7] tracking-normal md:tracking-widest text-xl md:text-2xl font-[Resgak] pb-5 whitespace-nowrap">
                 Quick Links
               </h2>
-              <nav className="list-none mb-10 flex items-start flex-col gap-4 text-[12px] md:text-[16px]">
+              <nav className="list-none mb-10 flex items-start flex-col gap-4 text-[12px] md:text-[16px] flex-wrap">
                 <li>
-                  <a className="text-[#FAFFF7]  ">Home</a>
+                  <a className="text-[#FAFFF7]">Home</a>
                 </li>
                 <li>
-                  <a className="text-[#FAFFF7]  ">About</a>
+                  <a className="text-[#FAFFF7]">About</a>
                 </li>
                 <li>
-                  <a className="text-[#FAFFF7]  ">Amenities</a>
+                  <a className="text-[#FAFFF7]">Amenities</a>
                 </li>
                 <li>
-                  <a className="text-[#FAFFF7]  ">Contact</a>
+                  <a className="text-[#FAFFF7]">Contact</a>
                 </li>
               </nav>
             </div>
@@ -72,26 +71,26 @@ function Footer() {
                   />
                 </div>
               </div>
-              <h2 className="text-center">Around the web</h2>
-              <nav className="list-none mb-10 flex items-start gap-4">
+              <h2 className="text-center pb-3">Around the web</h2>
+              <nav className="list-none mb-10 flex items-start gap-4 justify-center">
                 <li>
                   <a className="text-[#FAFFF7]  ">
-                    <FaFacebook size="2em" />
+                    <FaFacebook className="w-6 h-6 md:w-8 md:h-8" />
                   </a>
                 </li>
                 <li>
                   <a className="text-[#FAFFF7]  ">
-                    <FaInstagram size="2em" />
+                    <FaInstagram className="w-6 h-6 md:w-8 md:h-8" />
                   </a>
                 </li>
                 <li>
                   <a className="text-[#FAFFF7]  ">
-                    <FaPinterest size="2em" />
+                    <FaPinterest className="w-6 h-6 md:w-8 md:h-8" />
                   </a>
                 </li>
                 <li>
                   <a className="text-[#FAFFF7]  ">
-                    <FaLinkedin size="2em" />
+                    <FaLinkedin className="w-6 h-6 md:w-8 md:h-8" />
                   </a>
                 </li>
               </nav>
@@ -100,8 +99,12 @@ function Footer() {
         </div>
         <nav className="list-none mb-10 flex items-start justify-end md gap-4 flex-col md:hidden ">
           <li>
-            <a className="text-[#FAFFF7]  ">
-              1234 Elm Street, Suite 567, Springfield, 62704, United Kingdom
+            <a className="text-[#FAFFF7] whitespace-normal">
+              1234 Elm Street, Suite 567,
+              <br />
+              Springfield, 62704,
+              <br />
+              United Kingdom
             </a>
           </li>
           <li>
@@ -113,9 +116,12 @@ function Footer() {
         </nav>
       </div>
       <div className="container mx-auto py-4 px-4 flex flex-wrap flex-col sm:flex-row items-center justify-center">
-        <p className="text-[#FAFFF7] text-xs sm:text-sm text-center">
-          Copyright © 2024 Comfy Keys ltd. | All rights reserved - Designed &
-          developed by <span className="text-[#C5AC8D;]">DotSyndicate</span>
+        <hr className="border-none h-0.5 bg-[#FFF] w-full mb-4 md:hidden" />
+
+        <p className="text-[#FAFFF7] text-xs sm:text-sm text-center flex items-center gap-4 flex-col md:flex-row">
+          <span> Copyright © 2024 Comfy Keys ltd. | All rights </span>
+          <span>reserved - Designed & developed by </span>
+          <span className="text-[#C5AC8D;]">DotSyndicate</span>
         </p>
       </div>
     </footer>
