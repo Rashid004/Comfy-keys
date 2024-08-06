@@ -2,6 +2,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 import { FaBars } from "react-icons/fa";
 import {
@@ -11,7 +12,7 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 
-const Navigation = () => {
+function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
@@ -23,10 +24,12 @@ const Navigation = () => {
       {/* Desktop Navigation */}
       <div className="w-[95%] h-[83px] flex-shrink-0 mx-auto bg-[rgba(195,191,217,0.40)] border border-[rgba(195,191,217,0.13)] rounded-[20px] md:flex justify-between items-center px-8 py-5 backdrop-blur-[5.2px] hidden">
         <div className="flex items-center ml-6">
-          <img
+          <Image
             src="/images/logo.svg"
             alt="Comfy Keys Logo"
-            className="h-12 w-auto mr-2"
+            width={120} // Adjust the width as needed
+            height={100} // Adjust the height as needed
+            className="mr-2"
           />
         </div>
 
@@ -49,10 +52,11 @@ const Navigation = () => {
       {/* Mobile Navigation */}
       <div className="md:hidden flex justify-between items-center">
         <div className="flex items-center">
-          <img
+          <Image
             src="/images/logo.svg"
             alt="Comfy Keys Logo"
-            className="h-12 w-auto"
+            width={48} // Adjust the width as needed
+            height={48} // Adjust the height as needed
           />
         </div>
         <button
@@ -67,10 +71,11 @@ const Navigation = () => {
       {isOpen && (
         <div className="fixed inset-0 bg-[#10312A] text-white z-50 flex flex-col md:hidden">
           <div className="flex justify-between items-center p-4 border-b border-white/20">
-            <img
+            <Image
               src="/images/logo.svg"
               alt="Comfy Keys Logo"
-              className="h-12 w-auto"
+              width={48} // Adjust the width as needed
+              height={48} // Adjust the height as needed
             />
             <button
               onClick={toggleMenu}
@@ -101,6 +106,6 @@ const Navigation = () => {
       )}
     </header>
   );
-};
+}
 
 export default Navigation;

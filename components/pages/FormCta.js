@@ -6,7 +6,7 @@ function FormCta() {
   return (
     <section className="max-w-7xl mx-auto px-4 md:px-0">
       <div className="flex flex-col md:flex-row md:justify-end relative">
-        <div className="contact-info-box bg-[#18473D] text-white p-4 sm:p-6 md:p-10 w-[270px] h-auto md:w-[394px] md:h-[493px] md:absolute md:left-0 md:top-1/2 md:-translate-y-1/2 z-20 translate-y-32 translate-x-16 py-6 md:py-2">
+        <div className="contact-info-box bg-[#18473D] text-white p-4 sm:p-6 md:p-10 w-[270px] h-auto md:w-[394px] md:h-[493px] md:absolute md:left-0 md:top-1/2 md:-translate-y-1/2 z-20 translate-y-32 translate-x-[25%] py-6 md:py-2">
           <h2 className="text-x sm:text-2xl font-semibold mb-6 sm:mb-8 md:text-nowrap text-center">
             Contact info
           </h2>
