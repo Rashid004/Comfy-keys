@@ -21,7 +21,6 @@ function Navigation() {
 
   return (
     <header className="absolute top-0 left-0 right-0 z-40 px-8 py-4">
-      {/* Desktop Navigation */}
       <div className="w-[95%] h-[83px] flex-shrink-0 mx-auto bg-[rgba(195,191,217,0.40)] border border-[rgba(195,191,217,0.13)] rounded-[20px] md:flex justify-between items-center px-8 py-5 backdrop-blur-[5.2px] hidden">
         <div className="flex items-center ml-6">
           <Image
@@ -49,14 +48,13 @@ function Navigation() {
         </nav>
       </div>
 
-      {/* Mobile Navigation */}
       <div className="md:hidden flex justify-between items-center">
         <div className="flex items-center">
           <Image
-            src="/images/logo.svg"
+            src="/images/Logo.svg"
             alt="Comfy Keys Logo"
-            width={48} // Adjust the width as needed
-            height={48} // Adjust the height as needed
+            width={48}
+            height={48}
           />
         </div>
         <button

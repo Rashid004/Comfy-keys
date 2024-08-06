@@ -12,7 +12,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <section className="relative h-screen w-full overflow-hidden">
+      <div className="relative h-screen w-full overflow-hidden">
         <Navigation />
         <Image
           src="/images/home.svg"
@@ -25,15 +25,15 @@ export default function Home() {
         />
 
         <div className="absolute inset-0 flex items-center">
-          <div className="w-full px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-            <div className="max-w-4xl mx-auto sm:mx-0">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white mb-4 font-serif leading-tight text-center sm:text-left">
+          <div className="px-4 sm:px-6 lg:px-8 max-w-[1440px] w-full mx-auto">
+            <div className="max-w-4xl w-full mx-auto sm:mx-0">
+              <h1 className="text-4xl font-semibold sm:text-4xl md:text-5xl lg:text-6xl text-white mb-4 font-serif leading-tight text-center sm:text-left">
                 Welcome to <br className="sm:hidden" />
                 Comfy Keys
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-white mb-6 text-center sm:text-left">
                 Experience the Comfort of Home{" "}
-                <br className="hidden sm:inline" />
+                <br className="md:hidden inline" />
                 Away from Home at comfy keys
               </p>
               <div className="flex justify-center sm:justify-start">
@@ -51,23 +51,23 @@ export default function Home() {
                         <path
                           d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
                           stroke="#18473D"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                         <path
                           d="M12 16L16 12L12 8"
                           stroke="#18473D"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                         <path
                           d="M8 12H16"
                           stroke="#18473D"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
                     </span>
@@ -77,7 +77,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </div>
       <About />
       <Amenties />
       <Partner />
