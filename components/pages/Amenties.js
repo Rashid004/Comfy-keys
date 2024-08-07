@@ -5,7 +5,7 @@ import Image from "next/image";
 function Amenities() {
   return (
     <section
-      className="max-w-7xl mx-auto px-6 md:px-0 mb-8 md:mb-0"
+      className="max-w-7xl mx-auto px-6 md:px-0 mb-8 pb-20 md:pb-0 md:mb-0"
       id="amenities"
     >
       <div className="flex flex-col items-start md:items-center gap-3 mb-4 md:mb-12">
