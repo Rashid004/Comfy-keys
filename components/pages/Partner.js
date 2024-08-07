@@ -11,7 +11,7 @@ function Partner() {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="flex flex-col order-2 md:order-1 pr-6">
           <div className="relative md:absolute -top-24 md:top-44 md:right-0 z-20 mt-32 md:mt-0">
-            <h1 className="text-[20px]  sm:text-4xl md:text-[66px] mb-6 font-semibold md:font-bold text-[#18473D] font-[Resgak] uppercase tracking-[5px] md:tracking-[9.6px] text-start md:text-left">
+            <h1 className="text-[20px]  sm:text-4xl md:text-[66px] mb-2 font-semibold md:font-bold text-[#18473D] font-[Resgak] uppercase tracking-[5px] md:tracking-[9.6px] text-start md:text-left">
               Partner With Us
             </h1>
             <p className="text-[#ABA7A7]  md:mb-4 text-start md:text-left w-full md:w-[45%]">

@@ -9,7 +9,7 @@ function Amenities() {
       id="amenities"
     >
       <div className="flex flex-col items-start md:items-center gap-3 mb-4 md:mb-12">
-        <h1 className="text-[#18473D] font-[Resgak] ml-4 md:ml-0 uppercase text-2xl sm:text-5xl lg:text-6xl tracking-[6px] md:tracking-[9.6px] font-bold text-left">
+        <h1 className="text-[#18473D] font-[Resgak]  md:ml-0 uppercase text-2xl sm:text-5xl lg:text-6xl tracking-[6px] md:tracking-[9.6px] font-bold text-left">
           Our Amenities
         </h1>
 
