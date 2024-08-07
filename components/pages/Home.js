@@ -5,7 +5,7 @@ import Navigation from "../Navigation";
 
 export default function Home() {
   return (
-    <div className="relative h-screen mb-8 md:mb-0">
+    <div className="relative h-screen mb-8 md:mb-0" id="home">
       <Navigation />
       <div className="absolute inset-0">
         <Image
@@ -23,10 +23,11 @@ export default function Home() {
             Welcome to <br className="sm:hidden" />
             Comfy Keys
           </h1>
-          <p className="text-white text-lg md:text-xl lg:text-[36px] py-4 mb-6 text-center md:text-left md:whitespace-pre-wrap">
+          <p className="text-white text-lg md:text-xl lg:text-[36px] py-4 mb-6 text-center md:text-left leading-snug md:w-4/5 w-full md:leading-relaxed">
             Experience the Comfort of Home <br className="md:hidden inline" />
             Away from Home at comfy keys
           </p>
+
           <div className="flex justify-center md:justify-start">
             <button className="bg-white text-[#18473D] rounded-full px-6 py-3 text-base sm:text-lg font-semibold hover:bg-gray-100 transition-all duration-300 ease-in-out inline-flex items-center">
               Contact Us{" "}

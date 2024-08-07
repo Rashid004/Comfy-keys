@@ -4,10 +4,13 @@ import Image from "next/image";
 
 function About() {
   return (
-    <section className="relative py-8 md:py-28 px-4 md:px-6 mb-8 md:mb-20">
+    <section
+      className="relative py-8 md:py-28 px-4 md:px-6 mb-8 md:mb-20"
+      id="about"
+    >
       <div className="relative container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl">
         {/* Background div */}
-        <div className="absolute bg-[#18473D] w-[295px] h-[268px] md:w-[45%] md:h-full -top-4 left-2 md:-top-7 md:left-1 z-0"></div>
+        <div className="absolute bg-[#18473D] w-[295px] h-[268px] md:w-[517px] md:h-[521px] -top-4 left-2 md:-top-6 md:left-4 z-0"></div>
 
         {/* Image Section */}
         <div className="relative z-10 flex justify-center items-center order-1 md:order-1">
@@ -21,7 +24,7 @@ function About() {
         </div>
         {/* Text Section */}
         <div className="relative z-10 flex flex-col items-center md:items-start text-start md:text-left order-2 w-full md:order-2 mt-16 md:mt-32">
-          <h1 className="text-2xl sm:text-3xl md:text-5xl  font-bold text-[#18473D] font-[Resgak] uppercase tracking-[6px] md:tracking-[9.6px] md:-translate-x-[98px] relative -translate-y-12 right-20 md:-translate-y-14 ">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl  font-bold text-[#18473D] font-[Resgak] uppercase tracking-[6px] md:tracking-[9.6px] md:-translate-x-6 relative -translate-y-12 right-20 md:-translate-y-14 ">
             About Us
           </h1>
           <p className="text-[#8D8A8A] leading-[25px] text-[16px] w-full md:w-[70%] -mt-10">

@@ -4,7 +4,10 @@ import Image from "next/image";
 
 function Partner() {
   return (
-    <section className="relative pt-8 md:py-32 px-6 md:px-0 max-w-7xl mx-auto mb-1 md:mb-0">
+    <section
+      className="relative  md:py-32 px-6 md:px-0 max-w-7xl mx-auto mb-1 md:mb-0"
+      id="partner"
+    >
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="flex flex-col order-2 md:order-1 pr-6">
           <div className="relative md:absolute -top-24 md:top-44 md:right-0 z-20 mt-32 md:mt-0">

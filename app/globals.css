@@ -24,3 +24,15 @@ body {
     padding: 0 1rem;
   }
 }
+@font-face {
+  font-family: "Resgak";
+  src: url("/fonts/Resgak-Regular.woff2") format("woff2"),
+    /* Adjust path and format as needed */ url("/fonts/Resgak-Regular.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* In your global CSS file */
+html {
+  scroll-behavior: smooth;
+}

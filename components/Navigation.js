@@ -14,6 +14,7 @@ import {
 
 function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
+  const [activeLink, setActiveLink] = useState("home");
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
@@ -23,25 +24,33 @@ function Navigation() {
     <header className="absolute top-0 left-0 right-0 z-40 px-8 py-4">
       <div className="w-[95%] h-[83px] flex-shrink-0 mx-auto bg-[rgba(195,191,217,0.40)] border border-[rgba(195,191,217,0.13)] rounded-[20px] md:flex justify-between items-center px-8 py-5 backdrop-blur-[5.2px] hidden">
         <div className="flex items-center ml-6">
-          <Image
-            src="/images/Logo.svg"
-            alt="Comfy Keys Logo"
-            width={120} // Adjust the width as needed
-            height={100} // Adjust the height as needed
-            className="mr-2"
-          />
+          <a href="#footer">
+            <Image
+              src="/images/Logo.svg"
+              alt="Comfy Keys Logo"
+              width={120} // Adjust the width as needed
+              height={100} // Adjust the height as needed
+              className="mr-2"
+            />
+          </a>
         </div>
 
         <nav className="mr-6">
           <ul className="flex space-x-8">
             {navItems.map((item) => (
               <li key={item}>
-                <Link
-                  href={`/${item.toLowerCase()}`}
-                  className="text-white hover:text-gray-200 text-sm"
+                <a
+                  href={`#${item.toLowerCase()}`}
+                  className={`relative text-white hover:text-gray-200 text-sm ${
+                    activeLink === item.toLowerCase() ? "active" : ""
+                  }`}
+                  onClick={() => setActiveLink(item.toLowerCase())}
                 >
                   {item}
-                </Link>
+                  {activeLink === item.toLowerCase() && (
+                    <span className="absolute bottom-0 left-0 right-0 h-[2px] bg-white"></span>
+                  )}
+                </a>
               </li>
             ))}
           </ul>
@@ -86,9 +95,14 @@ function Navigation() {
             {navItems.map((item) => (
               <Link
                 key={item}
-                href={`/${item.toLowerCase()}`}
-                className="py-4 text-2xl font-semibold hover:text-gray-300 transition-colors"
-                onClick={toggleMenu}
+                href={`#${item.toLowerCase()}`}
+                className={`py-4 text-2xl font-semibold hover:text-gray-300 transition-colors ${
+                  activeLink === item.toLowerCase() ? "active" : ""
+                }`}
+                onClick={() => {
+                  toggleMenu();
+                  setActiveLink(item.toLowerCase());
+                }}
               >
                 {item}
               </Link>

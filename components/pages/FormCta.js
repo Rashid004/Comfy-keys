@@ -4,7 +4,10 @@ import React from "react";
 
 function FormCta() {
   return (
-    <section className="max-w-7xl mx-auto px-4 pb-12 md:pb-0 md:px-0 mb-8 md:mb-0">
+    <section
+      className="max-w-7xl mx-auto px-4 pb-12 md:pb-0 md:px-0 mb-8 md:mb-0"
+      id="contact"
+    >
       <div className="flex flex-col md:flex-row md:justify-end relative">
         <div className="contact-info-box bg-[#18473D] text-white p-2 sm:p-6 md:p-6 w-[250px] h-fit md:w-[394px] md:h-[450px] md:absolute md:left-2 md:translate-y-16 z-20 translate-y-24 translate-x-12 py-3 md:py-6">
           <h2 className="text-x sm:text-2xl font-semibold mb-6 sm:mb-8 md:text-nowrap text-center">

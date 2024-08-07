@@ -12,17 +12,22 @@ import { FaLinkedinIn } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer className="text-[#FAFFF7] body-font bg-[#143F36] mt-8 md:mt-14 pb-4 w-full overflow-x-hidden">
+    <footer
+      className="text-[#FAFFF7] body-font bg-[#143F36] mt-8 md:mt-14 pb-4 w-full overflow-x-hidden"
+      id="footer"
+    >
       <div className="w-full px-4 py-12 md:py-16 flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col max-w-7xl mx-auto">
         <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center gap-14 order-first">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <div className="pt-4 font-medium  tracking-widest text-sm ml-0 md:-ml-14 mb-0 md:mb-12 flex items-center md:items-start  justify-center ">
-              <Image
-                src="/images/Logo.svg"
-                alt="Logo"
-                width={200}
-                height={160}
-              />
+              <a href="#home">
+                <Image
+                  src="/images/Logo.svg"
+                  alt="Logo"
+                  width={200}
+                  height={160}
+                />
+              </a>
             </div>
             <nav className="list-none mb-10 md:flex items-start justify-end md gap-4 flex-col hidden ">
               <li>
