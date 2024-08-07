@@ -1,11 +1,10 @@
 /** @format */
 
-//** @format */
 import Image from "next/image";
 
 function Partner() {
   return (
-    <section className="relative pt-24 md:py-32 px-6 md:px-0 max-w-7xl mx-auto">
+    <section className="relative pt-8 md:py-32 px-6 md:px-0 max-w-7xl mx-auto mb-1 md:mb-0">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="flex flex-col order-2 md:order-1 pr-6">
           <div className="relative md:absolute -top-24 md:top-44 md:right-0 z-20 mt-32 md:mt-0">
@@ -29,7 +28,7 @@ function Partner() {
             </p>
           </div>
         </div>
-        <div className="absolute bg-[#18473D] w-[70%] h-[20%] md:w-[45%] md:h-2/3 -translate-y-4 md:-translate-y-6 right-7 md:-translate-x-16 md:-right-9 z-0"></div>
+        <div className="absolute bg-[#18473D] w-[70%] h-[22%] md:w-[40%] md:h-[60%] -translate-y-4 md:-translate-y-5 right-7 md:-translate-x-20 md:-right-9 z-0"></div>
         <div className="relative z-10 md:order-1 left-2">
           <Image
             src="/images/amenties.png"

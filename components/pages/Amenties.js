@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Amenities() {
   return (
-    <section className="max-w-7xl mx-auto px-6 md:px-0 mb-16 md:mb-0">
+    <section className="max-w-7xl mx-auto px-6 md:px-0 mb-8 md:mb-0">
       <div className="flex flex-col items-start md:items-center gap-3 mb-4 md:mb-12">
         <h1 className="text-[#18473D] font-[Resgak] ml-4 md:ml-0 uppercase text-2xl sm:text-5xl lg:text-6xl tracking-[6px] md:tracking-[9.6px] font-bold text-left">
           Our Amenities
@@ -14,7 +14,6 @@ function Amenities() {
           Discover the Features That Make Your Stay Unforgettable
         </p>
       </div>
-
       <div className="flex flex-wrap justify-center gap-6 md:gap-8">
         {[
           {

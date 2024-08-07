@@ -4,7 +4,7 @@ import React from "react";
 
 function FormCta() {
   return (
-    <section className="max-w-7xl mx-auto px-4 md:px-0">
+    <section className="max-w-7xl mx-auto px-4 md:px-0 mb-8 md:mb-0">
       <div className="flex flex-col md:flex-row md:justify-end relative">
         <div className="contact-info-box bg-[#18473D] text-white p-2 sm:p-6 md:p-6 w-[250px] h-fit md:w-[394px] md:h-[450px] md:absolute md:left-2 md:translate-y-16 z-20 translate-y-24 translate-x-12 py-3 md:py-6">
           <h2 className="text-x sm:text-2xl font-semibold mb-6 sm:mb-8 md:text-nowrap text-center">
@@ -91,26 +91,28 @@ function FormCta() {
         </div>
 
         {/* Form Box */}
-        <div className="border border-[#44D8B8] w-[345px] h-[490px] md:w-[973px] md:h-[583px] min-h-[583px] z-10 p-8 md:p-16 shadow-md  mt-4 md:mt-0">
-          <form className="flex flex-col gap-6 items-start justify-center md:max-w-[600px] md:ml-auto pt-32 md:pt-0">
-            <h2 className="text-[#18473D] text-2xl font-semibold mb-8">
+        <div className="border border-[#44D8B8] w-[345px] h-[490px] md:w-[973px] md:h-[583px] min-h-[583px] z-10 p-8 md:p-16 shadow-md mt-4 md:mt-0">
+          <form className="flex flex-col gap-8 items-start justify-center md:max-w-[600px] md:ml-auto pt-24 md:pt-0">
+            <h2 className="text-[#18473D] text-2xl font-semibold md:mb-8 mb-2">
               Send a message
             </h2>
             <input
               type="text"
               placeholder="Name*"
-              className="border-b border-[#202020] outline-none p-2 bg-transparent text-start w-full"
+              className="border-b border-[#202020] outline-none p-2 bg-transparent w-full py-4"
             />
-            <input
-              type="email"
-              placeholder="Email Address*"
-              className="border-b border-[#202020] outline-none p-2 bg-transparent w-full"
-            />
-            <input
-              type="text"
-              placeholder="Mobile Number*"
-              className="border-b border-[#202020] outline-none p-2 bg-transparent w-full"
-            />
+            <div className="flex flex-col md:flex-row md:items-center md:gap-8 gap-4 w-full">
+              <input
+                type="email"
+                placeholder="Email Address*"
+                className="border-b border-[#202020] outline-none p-2 bg-transparent w-full"
+              />
+              <input
+                type="text"
+                placeholder="Mobile Number*"
+                className="border-b border-[#202020] outline-none p-2 bg-transparent w-full"
+              />
+            </div>
             <input
               placeholder="Write your message here*"
               type="text"

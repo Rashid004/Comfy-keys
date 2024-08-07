@@ -12,7 +12,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer className="text-[#FAFFF7] body-font bg-[#143F36] mt-14 pb-4 w-full overflow-x-hidden">
+    <footer className="text-[#FAFFF7] body-font bg-[#143F36] mt-8 md:mt-14 pb-4 w-full overflow-x-hidden">
       <div className="w-full px-4 py-12 md:py-16 flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col max-w-7xl mx-auto">
         <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center gap-14 order-first">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
