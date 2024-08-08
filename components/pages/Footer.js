@@ -104,7 +104,7 @@ function Footer() {
         </div>
         <nav className="list-none mb-10 flex items-start justify-end md gap-4 flex-col md:hidden ">
           <li>
-            <a className="text-[#FAFFF7] whitespace-normal">
+            <a className="text-sm md:text-base text-[#FAFFF7] whitespace-normal">
               1234 Elm Street, Suite 567,
               <br />
               Springfield, 62704,

@@ -94,7 +94,7 @@ function FormCta() {
         </div>
 
         {/* Form Box */}
-        <div className="border border-[#44D8B8] w-[345px] h-[490px] md:w-[973px] md:h-[583px] min-h-[583px] z-10 p-8 md:p-16 shadow-md mt-4 md:mt-0">
+        <div className=" border border-[#44D8B8] w-[350px] h-[490px] md:w-[970px] md:h-[583px] min-h-[583px] z-10 p-8 md:p-16 shadow-md mt-4 md:mt-0">
           <form className="flex flex-col gap-8 items-start justify-center md:max-w-[600px] md:ml-auto pt-24 md:pt-0">
             <h2 className="text-[#18473D] text-2xl font-semibold md:mb-8 mb-2">
               Send a message
