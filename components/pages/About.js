@@ -24,7 +24,7 @@ function About() {
         </div>
         {/* Text Section */}
         <div className="relative z-10 flex flex-col items-center md:items-start text-start md:text-left order-2 w-full md:order-2 mt-16 md:mt-32">
-          <h1 className="text-2xl sm:text-3xl md:text-5xl  font-bold text-[#18473D] font-[Resgak] uppercase tracking-[6px] md:tracking-[9.6px] md:-translate-x-6 relative -translate-y-12 right-20 md:-translate-y-14 ">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl  font-bold text-[#18473D] font-[nunito] uppercase tracking-[6px] md:tracking-[9.6px] md:-translate-x-6 relative -translate-y-12 right-20 md:-translate-y-14 ">
             About Us
           </h1>
           <p className="text-[#8D8A8A] leading-[25px] text-[16px] w-full md:w-[70%] -mt-10">

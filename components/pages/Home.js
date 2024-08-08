@@ -19,7 +19,7 @@ export default function Home() {
       </div>
       <div className="relative z-10 flex flex-col justify-center items-center md:items-start h-full p-10 bg-black bg-opacity-50">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-white text-4xl md:text-6xl font-bold mb-4 font-[Resgak] text-center md:text-left">
+          <h1 className="text-white text-4xl md:text-6xl font-bold mb-4 font-[nunito] text-center md:text-left">
             Welcome to <br className="sm:hidden" />
             Comfy Keys
           </h1>

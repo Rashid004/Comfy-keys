@@ -45,7 +45,7 @@ function Footer() {
           </div>
           <div className="flex mb-8 md:mb-0 items-center justify-normal md:justify-between">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="font-semibold text-[#FAFFF7] tracking-normal md:tracking-widest text-xl md:text-2xl font-[Resgak] pb-5 whitespace-nowrap">
+              <h2 className="font-semibold text-[#FAFFF7] tracking-normal md:tracking-widest text-xl md:text-2xl font-[nunito] pb-5 whitespace-nowrap">
                 Quick Links
               </h2>
               <nav className="list-none mb-10 flex items-start flex-col gap-4 text-[12px] md:text-[16px] flex-wrap">
