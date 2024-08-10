@@ -5,7 +5,7 @@ import React from "react";
 function FormCta() {
   return (
     <section
-      className="max-w-7xl mx-auto px-4 pb-12 md:pb-0 md:px-0 mb-8 md:mb-0"
+      className="max-w-7xl mx-auto px-4 pb-12 md:pb-0 md:px-0 -mt-24 md:mt-6"
       id="contact"
     >
       <div className="flex flex-col md:flex-row md:justify-end relative">

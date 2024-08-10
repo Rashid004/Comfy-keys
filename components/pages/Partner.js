@@ -5,7 +5,7 @@ import Image from "next/image";
 function Partner() {
   return (
     <section
-      className="relative  md:py-32 px-6 md:px-0 max-w-7xl mx-auto mb-1 md:mb-0"
+      className="relative  md:py-32 px-6 md:px-0 max-w-7xl mx-auto"
       id="partner"
     >
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -14,7 +14,7 @@ function Partner() {
             <h1 className="text-[20px] sm:text-4xl md:text-[66px] mb-2 font-semibold md:font-bold text-[#18473D] font-[nunito] uppercase tracking-[5px] md:tracking-[9.6px] text-start md:text-left md:mb-6">
               Partner With Us
             </h1>
-            <p className="text-[#ABA7A7]  md:mb-4 text-start md:text-left w-full md:w-[45%]">
+            <p className="text-[#ABA7A7]  md:mb-4 text-start md:text-left w-full md:w-[45%] text-[14px] md:text-base">
               <span className="text-[#848282] leading-normal font-semibold mb-0 md:mb-4 block">
                 Welcome to Comfy Keys — Your Gateway to Comfortable Living
               </span>
@@ -31,7 +31,7 @@ function Partner() {
             </p>
           </div>
         </div>
-        <div className="absolute bg-[#18473D] w-[70%] h-[22%] md:w-[40%] md:h-[60%] -translate-y-4 md:-translate-y-5 right-9 md:-translate-x-[82px] md:-right-9 z-0"></div>
+        <div className="absolute bg-[#18473D] w-[70%] h-[257px] md:w-[40%] md:h-[60%] -translate-y-4 md:-translate-y-5 right-9 md:-translate-x-[82px] md:-right-9 z-0"></div>
         <div className="relative z-10 md:order-1 left-0">
           <Image
             src="/images/amenties.png"
