@@ -10,7 +10,7 @@ function About() {
     >
       <div className="relative container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl">
         {/* Background div */}
-        <div className="absolute bg-[#18473D] w-[295px] h-[268px] sm:w-[320px] sm:h-[300px] md:w-[517px] md:h-[521px] -top-4 left-2 sm:-top-4 sm:left-2 md:-top-6 md:left-4 z-0"></div>
+        <div className="absolute bg-[#18473D] w-[295px] h-[268px] sm:w-[320px] sm:h-[300px] md:w-[517px] md:h-[521px] -top-4 left-4 sm:-top-4 sm:left-2 md:-top-6 md:left-4 z-0"></div>
 
         {/* Image Section */}
         <div className="relative z-10 flex  items-center justify-start md:justify-center order-1 md:order-1">

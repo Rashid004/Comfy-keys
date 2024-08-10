@@ -32,7 +32,7 @@ function Partner() {
           </div>
         </div>
         <div className="absolute bg-[#18473D] w-[70%] h-[257px] md:w-[40%] md:h-[60%] -translate-y-4 md:-translate-y-5 right-9 md:-translate-x-[82px] md:-right-9 z-0"></div>
-        <div className="relative z-10 md:order-1 -left-2">
+        <div className="relative z-10 md:order-1 ">
           <Image
             src="/images/amenties.png"
             alt="About Comfy Keys"
