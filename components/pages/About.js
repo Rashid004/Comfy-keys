@@ -13,7 +13,7 @@ function About() {
         <div className="absolute bg-[#18473D] w-[295px] h-[268px] sm:w-[320px] sm:h-[300px] md:w-[517px] md:h-[521px] -top-4 left-2 sm:-top-4 sm:left-2 md:-top-6 md:left-4 z-0"></div>
 
         {/* Image Section */}
-        <div className="relative z-10 flex justify-center items-center sm:justify-start md:justify-center order-1 md:order-1">
+        <div className="relative z-10 flex  items-center justify-start md:justify-center order-1 md:order-1">
           <Image
             src="/images/about.svg"
             alt="About Comfy Keys"
@@ -23,7 +23,7 @@ function About() {
           />
         </div>
         {/* Text Section */}
-        <div className="relative z-10 flex flex-col items-center  md:items-start text-start md:text-left order-2 w-full md:order-2 mt-16 md:mt-32">
+        <div className="relative z-10 flex flex-col items-center justify-start  md:items-start text-start md:text-left order-2 w-full md:order-2 mt-16 md:mt-32">
           <h1 className="text-2xl sm:text-3xl md:text-5xl  font-bold text-[#18473D] font-[nunito] uppercase tracking-[6px] md:tracking-[9.6px] md:-translate-x-6 relative -translate-y-12 right-20 md:-translate-y-14 ">
             About Us
           </h1>
