@@ -1,12 +1,11 @@
 /** @format */
 
-import { Poppins } from "next/font/google";
+import { Nunito } from "next/font/google";
 import "./globals.css";
 
-// Specify the weights you want to use
-const poppins = Poppins({
+const nunito = Nunito({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"], // Add the weights you need
+  variable: "--font-nunito",
 });
 
 export const metadata = {
@@ -17,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body className={`${nunito.variable}`}>
         <main>{children}</main>
       </body>
     </html>
