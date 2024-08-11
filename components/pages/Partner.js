@@ -81,7 +81,7 @@ function Partner() {
             </p>
           </div>
         </div>
-        <div className="absolute bg-[#18473D] w-[250px] h-[220px] sm:h-[257px] md:w-[40%] md:h-[60%] -translate-y-4 sm:-translate-y-4 md:-translate-y-5 right-[88px] sm:right-[45%] md:-translate-x-[82px] md:-right-9 z-0"></div>
+        <div className="absolute bg-[#18473D] w-[250px] h-[220px] sm:h-[257px] md:w-[40%] md:h-[60%] -translate-y-4 sm:-translate-y-4 md:-translate-y-5 right-[94px] sm:right-[45%] md:-translate-x-[82px] md:-right-9 z-0"></div>
 
         <div className="relative z-10 order-1 md:order-2">
           <Image

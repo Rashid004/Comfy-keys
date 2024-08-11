@@ -80,7 +80,7 @@ function Amenities() {
       id="amenities"
     >
       <div className="flex flex-col items-start  md:items-center gap-3 mb-4 md:mb-8">
-        <h1 className="text-[#18473D] font-[nunito] md:ml-0 uppercase text-xl sm:text-2xl md:text-5xl lg:text-6xl tracking-[4px] sm:tracking-[6px] md:tracking-[9.6px] font-bold text-start ml-4">
+        <h1 className="text-[#18473D] font-[nunito] md:ml-0 uppercase text-xl sm:text-2xl md:text-5xl lg:text-6xl tracking-[4px] sm:tracking-[6px] md:tracking-[9.6px] font-bold text-start ml-2">
           Our Amenities
         </h1>
 
@@ -117,7 +117,7 @@ function Amenities() {
         ].map((amenity, index) => (
           <div
             key={index}
-            className="flex flex-col items-start text-left bg-[#18473D] w-[90%] sm:w-[316px] md:w-[278px] h-auto sm:h-[268px] p-12 sm:px-8  sm:py-10 md:px-[45px] md:py-10 justify-center gap-4"
+            className="flex flex-col items-start text-left bg-[#18473D] w-full sm:w-[316px] md:w-[278px] h-auto sm:h-[268px] p-12 sm:px-8  sm:py-10 md:px-[45px] md:py-10 justify-center gap-4"
           >
             <Image
               src={amenity.icon}
