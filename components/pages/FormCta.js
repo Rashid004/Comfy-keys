@@ -144,7 +144,7 @@ function FormCta() {
       id="contact"
     >
       <div className="flex flex-col md:flex-row md:justify-end relative">
-        <div className="contact-info-box bg-[#18473D] text-white p-2 sm:p-6 md:p-6 w-[250px] h-fit sm:w-[300px] md:w-[394px] md:h-[450px] md:absolute md:left-2 md:translate-y-16 z-20 translate-y-24 translate-x-9 sm:translate-x-12 py-3 md:py-6">
+        <div className="contact-info-box bg-[#18473D] text-white p-2 sm:p-6 md:p-6 w-[250px] h-fit sm:w-[300px] md:w-[394px] md:h-[450px] md:absolute md:left-2 md:translate-y-16 z-20 translate-y-24 translate-x-16 sm:translate-x-12 py-3 md:py-6">
           <h2 className="text-lg sm:text-2xl font-semibold mb-4 sm:mb-8 md:text-nowrap text-center">
             Contact info
           </h2>

@@ -117,7 +117,7 @@ function Amenities() {
         ].map((amenity, index) => (
           <div
             key={index}
-            className="flex flex-col items-start text-left bg-[#18473D] w-[90%] sm:w-[316px] md:w-[278px] h-auto sm:h-[268px] p-8 sm:px-8  sm:py-10 md:px-[45px] md:py-10 justify-center gap-4"
+            className="flex flex-col items-start text-left bg-[#18473D] w-[90%] sm:w-[316px] md:w-[278px] h-auto sm:h-[268px] p-12 sm:px-8  sm:py-10 md:px-[45px] md:py-10 justify-center gap-4"
           >
             <Image
               src={amenity.icon}
