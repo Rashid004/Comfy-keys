@@ -18,18 +18,23 @@ function Navigation() {
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
-  const navItems = ["Home", "About", "Amenities", "Contact"];
+  const navItems = [
+    { href: "meals", label: "Home" },
+    { href: "about", label: "About" },
+    { href: "partner", label: "Amenities" },
+    { href: "contact", label: "Contact" },
+  ];
 
   return (
     <header className="absolute top-0 left-0 right-0 z-40 px-8 py-4">
-      <div className="w-[95%] h-[83px] flex-shrink-0 mx-auto bg-[rgba(195,191,217,0.40)] border border-[rgba(195,191,217,0.13)] rounded-[20px] md:flex justify-between items-center px-8 py-5 backdrop-blur-[5.2px] hidden">
+      <div className="w-[95%] h-[83px] flex-shrink-0 mx-auto bg-dark-300 border border-dark-400 rounded-[20px] md:flex justify-between items-center px-8 py-5 backdrop-blur-[5.2px] hidden">
         <div className="flex items-center ml-6">
           <a href="#footer">
             <Image
               src="/images/Logo.svg"
               alt="Comfy Keys Logo"
-              width={120} // Adjust the width as needed
-              height={100} // Adjust the height as needed
+              width={120}
+              height={100}
               className="mr-2"
             />
           </a>
@@ -40,15 +45,15 @@ function Navigation() {
             {navItems.map((item) => (
               <li key={item}>
                 <a
-                  href={`#${item.toLowerCase()}`}
-                  className={`relative text-white hover:text-gray-200 text-sm ${
-                    activeLink === item.toLowerCase() ? "active" : ""
+                  href={`#${item.href}`}
+                  className={`relative text-primary-50 hover:text-primary-200 text-xl ${
+                    activeLink === item.href ? "active" : ""
                   }`}
-                  onClick={() => setActiveLink(item.toLowerCase())}
+                  onClick={() => setActiveLink(item.href)}
                 >
-                  {item}
-                  {activeLink === item.toLowerCase() && (
-                    <span className="absolute bottom-0 left-0 right-0 h-[2px] bg-white"></span>
+                  {item.label}
+                  {activeLink === item.href && (
+                    <span className="absolute bottom-0 left-0 right-0 h-[2px] bg-primary-50"></span>
                   )}
                 </a>
               </li>
@@ -67,7 +72,7 @@ function Navigation() {
           />
         </div>
         <button
-          className="inline-flex items-center border-0 py-1 px-3 focus:outline-none text-white"
+          className="inline-flex items-center border-0 py-1 px-3 focus:outline-none text-primary-50"
           onClick={toggleMenu}
         >
           <FaBars size="1.5em" />
@@ -76,8 +81,8 @@ function Navigation() {
 
       {/* Full-screen Mobile Navigation Menu */}
       {isOpen && (
-        <div className="fixed inset-0 bg-[#10312A] text-white z-50 flex flex-col md:hidden">
-          <div className="flex justify-between items-center p-4 border-b border-white/20">
+        <div className="fixed inset-0 bg-primary-700 text-primary-50 z-50 flex flex-col md:hidden">
+          <div className="flex justify-between items-center p-4 border-b border-primary-50/20">
             <Image
               src="/images/Logo.svg"
               alt="Comfy Keys Logo"
@@ -86,7 +91,7 @@ function Navigation() {
             />
             <button
               onClick={toggleMenu}
-              className="text-white hover:text-gray-300 focus:outline-none"
+              className="text-primary-50 hover:text-primary-300 focus:outline-none"
             >
               <XMarkIcon className="w-6 h-6" />
             </button>
@@ -95,16 +100,16 @@ function Navigation() {
             {navItems.map((item) => (
               <Link
                 key={item}
-                href={`#${item.toLowerCase()}`}
-                className={`py-4 text-2xl font-semibold hover:text-gray-300 transition-colors ${
-                  activeLink === item.toLowerCase() ? "active" : ""
+                href={`#${item.href}`}
+                className={`py-4 text-2xl font-semibold hover:text-primary-300 transition-colors ${
+                  activeLink === item.href ? "active" : ""
                 }`}
                 onClick={() => {
                   toggleMenu();
-                  setActiveLink(item.toLowerCase());
+                  setActiveLink(item.href);
                 }}
               >
-                {item}
+                {item.label}
               </Link>
             ))}
           </nav>
