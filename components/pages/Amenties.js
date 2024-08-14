@@ -30,11 +30,11 @@ function Amenities() {
   ];
   return (
     <section
-      className="max-w-7xl mx-auto px-2 sm:px-6 md:px-0 mb-8 pb-20 md:pb-0 md:mb-0 overflow-x-hidden"
+      className="max-w-7xl mx-auto px-4 sm:px-6 md:px-0 mb-8 pb-20 md:pb-0 md:mb-0 overflow-x-hidden"
       id="amenities"
     >
-      <div className="flex flex-col items-start  md:items-center gap-3 mb-4 md:mb-8">
-        <h1 className="text-dark-500 font-[Resgak]  uppercase text-2xl sm:text-3xl md:text-6xl tracking-[3.6px] sm:tracking-[6px] md:tracking-[9.6px] font-bold text-start ml-4 md:ml-0">
+      <div className="flex flex-col items-start md:items-center gap-3 mb-4 md:mb-8">
+        <h1 className="text-dark-500 font-serif  uppercase text-xl sm:text-2xl md:text-6xl tracking-[3.6px] sm:tracking-[6px] md:tracking-[9.6px] font-bold  ">
           Our Amenities
         </h1>
 
@@ -46,7 +46,7 @@ function Amenities() {
         {amentiesItems.map((amenity, index) => (
           <div
             key={index}
-            className="flex flex-col items-start text-left bg-dark-500 w-[90%] sm:w-[316px] md:w-[278px] h-auto sm:h-[268px] p-12 sm:px-8  sm:py-10 md:px-[45px] md:py-10 justify-center gap-4"
+            className="flex flex-col items-start text-left bg-dark-500 w-full sm:w-2/3 md:w-[278px] h-auto sm:h-[268px] p-12 sm:px-10  sm:py-12 md:px-11 md:py-10 justify-center gap-4"
           >
             <Image
               src={amenity.icon}

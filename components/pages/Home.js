@@ -23,13 +23,13 @@ export default function Home() {
             Welcome to <br className="sm:hidden" />
             Comfy Keys
           </h1>
-          <p className="text-primary-50 text-base sm:text-lg md:text-[32px] py-2 sm:py-4 mb-4 sm:mb-6 text-center md:text-left leading-tight md:w-3/4 w-full md:leading-relaxed">
+          <p className="text-primary-50 text-sm sm:text-lg md:text-[32px]  py-1  sm:py-4 mb-4 sm:mb-6 text-center md:text-left leading-tight md:w-3/4 w-full md:leading-relaxed">
             Experience the Comfort of Home <br className="md:hidden" />
             Away from Home <br className="hidden md:block" /> at comfy keys
           </p>
 
           <div className="flex justify-center md:justify-start">
-            <button className="bg-primary-50 text-dark-500 rounded-full px-4 sm:px-6 py-3 sm:py-3 text-sm sm:text-base md:text-lg font-semibold hover:bg-primary-700 hover:text-primary-50 transition-colors delay-300 ease-in-out inline-flex items-center">
+            <button className="bg-primary-50 text-dark-500 rounded-full px-4 sm:px-6 py-3 sm:py-3 text-xs sm:text-base md:text-lg font-semibold hover:bg-primary-700 hover:text-primary-50 transition-colors duration-300 ease-in-out inline-flex items-center">
               Contact Us{" "}
               <span className="ml-2">
                 <svg

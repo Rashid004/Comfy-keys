@@ -9,7 +9,7 @@ function FormCta() {
       id="contact"
     >
       <div className="flex flex-col md:flex-row md:justify-end relative">
-        <div className="contact-info-box bg-dark-500 text-primary-50 p-2 sm:p-6 md:p-6 w-[250px] h-fit sm:w-[300px] md:w-[394px] md:h-[450px] md:absolute md:left-2 md:translate-y-16 z-20 translate-y-24 translate-x-16 sm:translate-x-12 py-3 md:py-6">
+        <div className="contact-info-box bg-dark-500 text-primary-50 px-6 sm:p-6 md:p-6 w-4/5 h-fit sm:w-[300px] md:w-[394px] md:h-[450px] md:absolute md:left-2 md:translate-y-16 z-20 translate-y-24  sm:translate-x-20 py-3 md:py-6 left-0 top-0 translate-x-7">
           <h2 className="text-lg sm:text-2xl font-semibold mb-4 sm:mb-8 md:text-nowrap text-center">
             Contact info
           </h2>
@@ -94,9 +94,9 @@ function FormCta() {
         </div>
 
         {/* Form Box */}
-        <div className="border border-primary-400 w-full sm:w-[450px] h-[490px] md:w-[970px] md:h-[583px] min-h-[583px] z-10 p-4 sm:p-8 md:p-16 shadow-md mt-4 md:mt-0">
+        <div className="border border-primary-400 w-full sm:w-[450px] h-[490px] md:w-[970px] md:h-[583px] min-h-[583px] z-10 px-6 py-2 sm:p-8 md:p-16 shadow-md mt-4 md:mt-0">
           <form className="flex flex-col gap-6 sm:gap-8 items-start justify-center md:max-w-[600px] md:ml-auto pt-24 md:pt-0">
-            <h2 className="text-dark-500 text-xl sm:text-2xl font-semibold md:mb-8 mb-2">
+            <h2 className="text-dark-500 text-lg sm:text-2xl font-semibold md:mb-8 mb-2">
               Send a message
             </h2>
             <input
@@ -121,7 +121,7 @@ function FormCta() {
               type="text"
               className="border-b border-primary-500 outline-none p-2 bg-transparent w-full"
             />
-            <button className="border border-primary-500 rounded-full px-6 sm:px-8 py-2 mt-4 hover:bg-primary-700 hover:text-primary-50 transition-colors delay-300">
+            <button className="border border-primary-500 rounded-full px-6 sm:px-8 py-1 sm:py-2 mt-4 hover:bg-primary-700 hover:text-primary-50 transition-colors duration-300">
               Send
             </button>
           </form>
