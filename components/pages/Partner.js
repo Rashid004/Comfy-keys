@@ -31,7 +31,7 @@ function Partner() {
             </p>
           </div>
         </div>
-        <div className="absolute bg-dark-500 w-2/3 h-60 sm:w-[60%] sm:h-72  md:w-[40%] md:h-[60%] -translate-y-5 sm:-translate-y-4 md:-translate-y-5 right-14 sm:right-0 sm:-translate-x-[53%] md:-translate-x-[82px] md:-right-9 z-0"></div>
+        <div className="absolute bg-dark-500 w-4/5 h-60 sm:w-[60%] sm:h-72  md:w-[40%] md:h-[60%] -translate-y-5 sm:-translate-y-4 md:-translate-y-5 right-4 sm:right-0 sm:-translate-x-[53%] md:-translate-x-[82px] md:-right-9 z-0"></div>
 
         <div className="relative z-10 order-1 md:order-2">
           <Image
@@ -39,7 +39,7 @@ function Partner() {
             alt="About Comfy Keys"
             width={561}
             height={486}
-            className="object-cover object-center shadow-md w-4/5 h-60 sm:w-2/3 sm:h-[310px]  md:w-[561px] md:h-[486px]"
+            className="object-cover object-center shadow-md w-[95%] h-64 sm:w-2/3 sm:h-[310px]  md:w-[561px] md:h-[486px]"
           />
         </div>
       </div>
