@@ -9,11 +9,11 @@ function FormCta() {
       id="contact"
     >
       <div className="flex flex-col md:flex-row md:justify-end relative">
-        <div className="contact-info-box bg-dark-500 text-primary-50 px-4 sm:p-6 md:p-6 w-3/4 h-[280px] sm:w-[300px] md:w-80 md:h-[450px] md:absolute md:left-2 md:translate-y-16 z-20 translate-y-24  sm:translate-x-20 py-3 md:py-6 left-0 top-0 translate-x-10">
+        <div className="contact-info-box bg-dark-500 text-primary-50 px-4 sm:p-6 md:p-6 w-3/4 h-[280px] sm:w-[300px] md:w-80 md:h-[450px] md:absolute md:left-2 md:translate-y-16 z-20 translate-y-24  sm:translate-x-20 py-4 md:py-6 left-0 top-0 translate-x-10">
           <h2 className="text-lg sm:text-2xl font-semibold mb-4 sm:mb-8 md:text-nowrap text-center">
             Contact info
           </h2>
-          <div className="space-y-4 sm:space-y-8">
+          <div className="space-y-5 sm:space-y-8">
             <div className="flex items-center md:items-start gap-2 sm:gap-4">
               <span className="flex-shrink-0">
                 <svg
@@ -24,7 +24,7 @@ function FormCta() {
                   <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                 </svg>
               </span>
-              <p className="text-xs sm:text-base">
+              <p className="text-sm sm:text-base">
                 1234 Elm Street, Suite <br /> 567, Springfield, 62704 <br />{" "}
                 United Kingdom
               </p>
@@ -39,7 +39,7 @@ function FormCta() {
                   <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z" />
                 </svg>
               </span>
-              <p className="text-xs sm:text-base">+1 (555) 123-4567</p>
+              <p className="text-sm sm:text-base">+1 (555) 123-4567</p>
             </div>
             <div className="flex items-center gap-2 sm:gap-4">
               <span className="flex-shrink-0">
@@ -51,7 +51,7 @@ function FormCta() {
                   <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
                 </svg>
               </span>
-              <p className="text-xs sm:text-base">sample.email@abc.com</p>
+              <p className="text-sm sm:text-base">sample.email@abc.com</p>
             </div>
           </div>
           <div className="flex items-center justify-center gap-3 sm:gap-6 mt-4 sm:mt-8">

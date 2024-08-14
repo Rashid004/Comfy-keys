@@ -19,7 +19,7 @@ function About() {
             alt="About Comfy Keys"
             width={546}
             height={521}
-            className="object-cover object-center shadow-md w-full h-64 sm:w-2/3 sm:h-[310px] md:w-[546px] md:h-[521px]"
+            className="object-cover object-center shadow-md w-full h-[260px] sm:w-2/3 sm:h-[310px] md:w-[546px] md:h-[521px]"
           />
         </div>
 
@@ -28,7 +28,7 @@ function About() {
           <h1 className="text-xl sm:text-2xl md:text-5xl lg:text-[64px] font-bold text-dark-500 font-serif uppercase tracking-[3.6px] sm:tracking-[6px] md:tracking-[9.6px] mb-4 md:mb-0 md:-translate-x-36 md:-translate-y-14">
             About Us
           </h1>
-          <p className="text-dark-50 leading-tight sm:leading-[25px] text-sm sm:text-sm md:text-base w-full mt-2 md:-mt-10 ">
+          <p className="text-dark-50 leading-tight sm:leading-[25px] text-sm sm:text-xl md:text-base w-full mt-2 md:-mt-10 ">
             <span className="text-dark-100 font-semibold mb-1 hidden md:block">
               Welcome to Comfy Keys — Your Gateway to Comfortable Living{" "}
             </span>

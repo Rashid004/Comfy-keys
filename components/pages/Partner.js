@@ -39,7 +39,7 @@ function Partner() {
             alt="About Comfy Keys"
             width={561}
             height={486}
-            className="object-cover object-center shadow-md w-[95%] h-64 sm:w-2/3 sm:h-[310px]  md:w-[561px] md:h-[486px]"
+            className="object-cover object-center shadow-md w-[95%] h-[260px] sm:w-2/3 sm:h-[310px]  md:w-[561px] md:h-[486px]"
           />
         </div>
       </div>

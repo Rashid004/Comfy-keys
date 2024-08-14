@@ -82,7 +82,7 @@ function Navigation() {
       {/* Full-screen Mobile Navigation Menu */}
       {isOpen && (
         <div className="fixed inset-0 bg-primary-700 text-primary-50 z-50 flex flex-col md:hidden">
-          <div className="flex justify-between items-center p-4 border-b border-primary-50/20">
+          <div className="flex justify-between items-center ml-4 p-4 border-b border-primary-50/20">
             <Image
               src="/images/Logo.svg"
               alt="Comfy Keys Logo"
@@ -101,7 +101,7 @@ function Navigation() {
               <Link
                 key={item}
                 href={`#${item.href}`}
-                className={`py-4 text-2xl font-semibold hover:text-primary-300 transition-colors ${
+                className={`py-4 text-xl md:text-2xl font-semibold hover:text-primary-300 transition-colors ${
                   activeLink === item.href ? "active" : ""
                 }`}
                 onClick={() => {

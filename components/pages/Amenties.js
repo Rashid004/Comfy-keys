@@ -30,7 +30,7 @@ function Amenities() {
   ];
   return (
     <section
-      className="max-w-7xl mx-auto px-4 sm:px-6 md:px-0 mb-8 pb-20 md:pb-0 md:mb-0 overflow-x-hidden"
+      className="max-w-7xl mx-auto px-2 sm:px-6 md:px-0 mb-8 pb-20 md:pb-0 md:mb-0 overflow-x-hidden"
       id="amenities"
     >
       <div className="flex flex-col items-start md:items-center gap-3 mb-4 md:mb-8">
