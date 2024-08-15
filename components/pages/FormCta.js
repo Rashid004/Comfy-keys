@@ -9,7 +9,7 @@ function FormCta() {
       id="contact"
     >
       <div className="flex flex-col md:flex-row md:justify-end relative">
-        <div className="contact-info-box bg-dark-500 text-primary-50 px-4 sm:p-6 md:p-6 w-3/4 h-[280px] sm:w-[300px] md:w-80 md:h-[450px] md:absolute md:left-2 md:translate-y-16 z-20 translate-y-24  sm:translate-x-20 py-4 md:py-6 left-0 top-0 translate-x-10">
+        <div className="contact-info-box bg-dark-500 text-primary-50 px-4 sm:p-6 md:p-6 w-3/4 h-[280px] sm:w-[300px] md:w-80 md:h-[450px] md:absolute md:left-2 md:translate-y-16 z-20 translate-y-24  sm:translate-x-20 py-4 md:py-6 left-0 top-0 translate-x-11">
           <h2 className="text-lg sm:text-2xl font-semibold mb-4 sm:mb-8 md:text-nowrap text-center">
             Contact info
           </h2>

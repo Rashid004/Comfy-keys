@@ -10,7 +10,7 @@ function About() {
     >
       <div className="relative container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 max-w-7xl">
         {/* Background div */}
-        <div className="absolute bg-dark-500 w-4/5 h-60 sm:w-[60%] sm:h-72 md:w-[517px] md:h-[521px] -top-4 left-2 sm:-top-0 sm:translate-x-2 sm:-translate-y-5 sm:-left-0  md:top-0 md:left-0 md:-translate-x-6 z-0 "></div>
+        <div className="absolute bg-dark-500 w-4/5 h-72 sm:w-[60%] sm:h-72 md:w-[517px] md:h-[521px] -top-4 left-2 sm:-top-0 sm:translate-x-2 sm:-translate-y-5 sm:-left-0  md:top-0 md:left-0 md:-translate-x-6 z-0 "></div>
 
         {/* Image Section */}
         <div className="relative z-10 flex items-center justify-start ml-4 md:ml-0 sm:justify-start order-1 md:order-1">
@@ -19,7 +19,7 @@ function About() {
             alt="About Comfy Keys"
             width={546}
             height={521}
-            className="object-cover object-center shadow-md w-full h-[260px] sm:w-2/3 sm:h-[310px] md:w-[546px] md:h-[521px]"
+            className="object-cover object-center shadow-md w-full h-fit sm:w-2/3 sm:h-[310px] md:w-[546px] md:h-[521px]"
           />
         </div>
 
