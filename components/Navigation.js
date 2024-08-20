@@ -12,24 +12,24 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 
+const navItems = [
+  { link: "meals", label: "Home" },
+  { link: "about", label: "About" },
+  { link: "partner", label: "Amenities" },
+  { link: "contact", label: "Contact" },
+];
+
 function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("home");
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
-  const navItems = [
-    { href: "meals", label: "Home" },
-    { href: "about", label: "About" },
-    { href: "partner", label: "Amenities" },
-    { href: "contact", label: "Contact" },
-  ];
-
   return (
-    <header className="absolute top-0 left-0 right-0 z-40 px-8 py-4">
-      <div className="w-[95%] h-[83px] flex-shrink-0 mx-auto bg-dark-300 border border-dark-400 rounded-[20px] md:flex justify-between items-center px-8 py-5 backdrop-blur-[5.2px] hidden">
+    <header className="absolute top-0 left-0 right-0 z-40 px-8 py-4 max-w-7xl mx-auto">
+      <div className="w-full h-full flex-shrink-0 mx-auto bg-dark-300 border border-dark-400 rounded-3xl md:flex justify-between items-center px-8 py-5 backdrop-blur-sm hidden">
         <div className="flex items-center ml-6">
-          <a href="#footer">
+          <Link href="#footer">
             <Image
               src="/images/Logo.svg"
               alt="Comfy Keys Logo"
@@ -37,25 +37,25 @@ function Navigation() {
               height={100}
               className="mr-2"
             />
-          </a>
+          </Link>
         </div>
 
         <nav className="mr-6">
           <ul className="flex space-x-8">
             {navItems.map((item) => (
               <li key={item}>
-                <a
-                  href={`#${item.href}`}
-                  className={`relative text-primary-50 hover:text-primary-200 text-xl ${
-                    activeLink === item.href ? "active" : ""
+                <Link
+                  href={`#${item.link}`}
+                  className={`relative text-primary-50 hover:text-primary-200 text-lg ${
+                    activeLink === item.link ? "active" : ""
                   }`}
-                  onClick={() => setActiveLink(item.href)}
+                  onClick={() => setActiveLink(item.link)}
                 >
                   {item.label}
-                  {activeLink === item.href && (
+                  {activeLink === item.link && (
                     <span className="absolute bottom-0 left-0 right-0 h-[2px] bg-primary-50"></span>
                   )}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -100,13 +100,13 @@ function Navigation() {
             {navItems.map((item) => (
               <Link
                 key={item}
-                href={`#${item.href}`}
+                href={`#${item.link}`}
                 className={`py-4 text-xl md:text-2xl font-semibold hover:text-primary-300 transition-colors ${
-                  activeLink === item.href ? "active" : ""
+                  activeLink === item.link ? "active" : ""
                 }`}
                 onClick={() => {
                   toggleMenu();
-                  setActiveLink(item.href);
+                  setActiveLink(item.link);
                 }}
               >
                 {item.label}

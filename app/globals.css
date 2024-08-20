@@ -19,25 +19,27 @@ body {
   }
 }
 
-@media (max-width: 768px) {
-  .contact-info-box {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
-  .container {
-    padding: 0 1rem;
-  }
-}
-@font-face {
-  font-family: "Resgak";
-  src: url("/fonts/Resgak-Regular.woff2") format("woff2"),
-    /* Adjust path and format as needed */ url("/fonts/Resgak-Regular.woff")
+/* @font-face {
+  url("/fonts/Resgak-Regular.woff")
       format("woff");
   font-weight: normal;
   font-style: normal;
 }
+ */
 /* In your global CSS file */
 html {
   scroll-behavior: smooth;
+}
+
+@layer base {
+  .heading-style {
+    @apply text-xl sm:text-2xl md:text-4xl lg:text-6xl md:tracking-[9.6px] font-bold text-dark-500 font-resgak uppercase tracking-[3.6px];
+  }
+
+  .text-content {
+    @apply text-dark-50 leading-tight sm:leading-[20px] text-sm lg:text-base mt-2 md:-mt-10;
+  }
+  .section-container {
+    @apply overflow-x-hidden max-w-7xl mx-auto py-6 sm:py-24 px-2 sm:px-6;
+  }
 }
