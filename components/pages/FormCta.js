@@ -12,10 +12,52 @@ import React from "react";
 
 function FormCta() {
   return (
-    <section className="section-container my-28" id="contact">
-      <div className="relative flex flex-col md:flex-row items-center w-full">
+    <section
+      className="section-container mt-1  py-24 sm:pt-60 md:py-0 relative"
+      id="contact"
+    >
+      <div className="md:hidden  absolute bottom-1/2 flex flex-col items-start justify-center gap-4 bg-dark-500 text-primary-50 max-w-full md:max-w-xs lg:max-w-sm max-h-fit md:h-[400px]  px-6 py-8  left-1/2 transform -translate-x-1/2  -translate-y-1/2 sm:bottom-2/3 sm:translate-y-20 z-50 ">
+        <h2 className="text-lg sm:text-2xl font-semibold mb-4 sm:mb-8 md:text-nowrap text-center md:text-left">
+          Contact info
+        </h2>
+        <div className="flex items-center md:items-start gap-2 sm:gap-4">
+          <span className="flex-shrink-0">
+            <RiMapPin2Fill className="w-5 h-5 sm:w-8 sm:h-8 text-dark-600" />
+          </span>
+          <p className="text-sm sm:text-base">
+            1234 Elm Street, Suite <br /> 567, Springfield, 62704 <br /> United
+            Kingdom
+          </p>
+        </div>
+        <div className="flex items-center gap-2 sm:gap-4">
+          <span className="flex-shrink-0">
+            <IoCall className="w-5 h-5 sm:w-8 sm:h-8 text-dark-600" />
+          </span>
+          <p className="text-sm sm:text-base">+1 (555) 123-4567</p>
+        </div>
+        <div className="flex items-center gap-2 sm:gap-4">
+          <MdEmail className="w-5 h-5 sm:w-8 sm:h-8 text-dark-600" />
+          <p className="text-sm sm:text-base">sample.email@abc.com</p>
+        </div>
+
+        <div className="flex items-center justify-center gap-3 sm:gap-6 mt-4 sm:mt-8">
+          <span className="flex-shrink-0">
+            <RiInstagramFill className="w-5 h-5 sm:w-8 sm:h-8 text-primary-50" />
+          </span>
+          <span className="flex-shrink-0">
+            <FaPinterest className="w-5 h-5 sm:w-8 sm:h-8 text-primary-50" />
+          </span>
+          <span className="flex-shrink-0">
+            <FaLinkedin className="w-5 h-5 sm:w-8 sm:h-8 text-primary-50" />
+          </span>
+          <span className="flex-shrink-0">
+            <FaXTwitter className="w-5 h-5 sm:w-8 sm:h-8 text-primary-50" />
+          </span>
+        </div>
+      </div>
+      <div className="relative flex flex-col md:flex-row items-center w-full mt-28 sm:mt-6 md:mt-0">
         {/* Contact Info Box */}
-        <div className="absolute  flex flex-col items-start gap-4 bg-dark-500 text-primary-50 max-w-full md:max-w-xs lg:max-w-sm h-[251px] md:h-[490px] px-8 py-4 top-0 left-0 transform md:translate-x-0 translate-x-1/2 md:translate-y-24 -translate-y-1/2 z-50 ">
+        <div className="hidden  absolute  md:flex flex-col items-start gap-4 bg-dark-500 text-primary-50 max-w-full md:max-w-xs lg:max-w-sm max-h-fit md:h-[400px]  px-8 py-4 top-0 left-0 transform md:translate-x-0 translate-x-1/2 md:translate-y-24 -translate-y-2/3 z-50 ">
           <h2 className="text-lg sm:text-2xl font-semibold mb-4 sm:mb-8 md:text-nowrap text-center md:text-left">
             Contact info
           </h2>
@@ -56,7 +98,7 @@ function FormCta() {
         </div>
 
         {/* Form Box */}
-        <div className="md:ml-20 lg:ml-32 flex flex-col items-center justify-center md:w-full sm:w-2/3 min-h-[583px] z-0 pb-6 border border-gray-400 mt-4 md:mt-0 pt-16 md:pt-0 pl-8 md:pl-72 lg:pl-[400px]  px-6">
+        <div className="md:ml-20 lg:ml-32 flex flex-col items-center justify-center w-full md:w-[90%]  min-h-[583px] z-0 pb-6 border border-gray-400 mt-4 md:mt-0 pt-16 md:pt-0 pl-8 md:pl-72 lg:pl-[400px]  px-6">
           <div className="flex flex-col items-start gap-4 w-full px-4 md:px-0">
             <h2 className="text-dark-500 text-lg sm:text-2xl font-semibold md:mb-8">
               Send a message
