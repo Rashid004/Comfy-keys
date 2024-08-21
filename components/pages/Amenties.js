@@ -2,35 +2,35 @@
 
 import Image from "next/image";
 
+const amentiesItems = [
+  {
+    icon: "/icons/icon2.svg",
+    title: "Housekeeping",
+    description:
+      "Every room is meticulously cleaned and sanitized to ensure hygienic environment.",
+  },
+  {
+    icon: "/icons/icon3.svg",
+    title: "Smart TVs",
+    description:
+      "Enjoy a wide range of streaming options and channels with our Smart TVs",
+  },
+  {
+    icon: "/icons/icon4.svg",
+    title: "Furnished Kitchen",
+    description: "Prepare your meals in our fully equipped kitchen facilities.",
+  },
+  {
+    icon: "/icons/icon1.svg",
+    title: "Free Parking",
+    description: "Convenient and secure parking is available for all guests.",
+  },
+];
+
 function Amenities() {
-  const amentiesItems = [
-    {
-      icon: "/icons/icon2.svg",
-      title: "Housekeeping",
-      description:
-        "Every room is meticulously cleaned and sanitized to ensure hygienic environment.",
-    },
-    {
-      icon: "/icons/icon3.svg",
-      title: "Smart TVs",
-      description:
-        "Enjoy a wide range of streaming options and channels with our Smart TVs",
-    },
-    {
-      icon: "/icons/icon4.svg",
-      title: "Furnished Kitchen",
-      description:
-        "Prepare your meals in our fully equipped kitchen facilities.",
-    },
-    {
-      icon: "/icons/icon1.svg",
-      title: "Free Parking",
-      description: "Convenient and secure parking is available for all guests.",
-    },
-  ];
   return (
-    <section className="section-container -mt-6" id="amenities">
-      <div className="flex flex-col items-start md:items-center justify-items-start gap-3 mb-4 md:mb-8 mx-4">
+    <section className="section-container pt-8 sm:pt-0" id="amenities">
+      <div className="flex flex-col items-start md:items-center justify-items-start gap-6 sm:gap-8 mb-4 md:mb-8 mx-4">
         <div>
           <h1 className="heading-style">Our Amenities</h1>
           <p className="text-dark-200 font-normal text-left text-sm sm:text-base hidden md:block mb-6">

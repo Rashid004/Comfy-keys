@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function About() {
   return (
-    <section className="section-container sm:mb-14" id="about ">
+    <section className="section-container py-6 sm:py-20" id="about ">
       <div className="flex items-start sm:items-center flex-col md:flex-row justify-center mx-4 gap-14 lg:gap-24">
         {/* Image Section */}
         <div className="w-full sm:w-4/5 md:w-3/4 flex">

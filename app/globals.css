@@ -40,6 +40,6 @@ html {
     @apply text-dark-50 leading-tight sm:leading-[20px] text-sm lg:text-base mt-2 md:-mt-10;
   }
   .section-container {
-    @apply overflow-x-hidden max-w-7xl mx-auto py-6 sm:py-24 px-2 sm:px-6;
+    @apply overflow-x-hidden max-w-7xl mx-auto  px-2 sm:px-6;
   }
 }

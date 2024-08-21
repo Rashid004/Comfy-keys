@@ -16,7 +16,7 @@ function FormCta() {
       className="section-container mt-1  py-24 sm:pt-60 md:py-0 relative"
       id="contact"
     >
-      <div className="md:hidden  absolute bottom-1/2 flex flex-col items-start justify-center gap-4 bg-dark-500 text-primary-50 max-w-full md:max-w-xs lg:max-w-sm max-h-fit md:h-[400px]  px-6 py-8  left-1/2 transform -translate-x-1/2  -translate-y-1/2 sm:bottom-2/3 sm:translate-y-20 z-50 ">
+      <div className="md:hidden absolute bottom-1/2 flex flex-col items-start justify-center gap-4 bg-dark-500 text-primary-50 w-3/4 sm:w-3/5  max-h-fit md:h-[400px]  px-6 py-8  left-1/2 transform -translate-x-1/2  -translate-y-1/2 sm:bottom-2/3 sm:translate-y-20 z-50 ">
         <h2 className="text-lg sm:text-2xl font-semibold mb-4 sm:mb-8 md:text-nowrap text-center md:text-left">
           Contact info
         </h2>
@@ -98,33 +98,33 @@ function FormCta() {
         </div>
 
         {/* Form Box */}
-        <div className="md:ml-20 lg:ml-32 flex flex-col items-center justify-center w-full md:w-[90%]  min-h-[583px] z-0 pb-6 border border-gray-400 mt-4 md:mt-0 pt-16 md:pt-0 pl-8 md:pl-72 lg:pl-[400px]  px-6">
+        <div className="md:ml-20 lg:ml-32 flex flex-col items-center justify-center w-full md:w-[90%] mx-4  min-h-[583px] z-0 pb-6 border border-gray-400 mt-4 md:mt-0 pt-16 md:pt-0 pl-8 md:pl-72 lg:pl-[400px]  px-6">
           <div className="flex flex-col items-start gap-4 w-full px-4 md:px-0">
             <h2 className="text-dark-500 text-lg sm:text-2xl font-semibold md:mb-8">
               Send a message
             </h2>
-            <form className="flex flex-col gap-6 sm:gap-8 items-center justify-center md:pt-0">
+            <form className="flex flex-col gap-6 sm:gap-8 sm:items-start md:items-center justify-center md:pt-0 w-full">
               <input
                 type="text"
                 placeholder="Name*"
-                className="border-b border-primary-500 outline-none p-2 bg-transparent  w-full  py-2 sm:py-4"
+                className="border-b border-primary-500 outline-none p-2 bg-transparent w-full  py-2 sm:py-4"
               />
-              <div className="flex flex-col md:flex-row md:items-center md:gap-8 gap-4 ">
+              <div className="flex flex-col sm:flex-row md:items-center md:gap-8 gap-4 ">
                 <input
                   type="email"
                   placeholder="Email Address*"
-                  className="border-b border-primary-500 outline-none p-2 w-full  bg-transparent "
+                  className="border-b border-primary-500 outline-none p-2 w-full   bg-transparent "
                 />
                 <input
                   type="text"
                   placeholder="Mobile Number*"
-                  className="border-b border-primary-500 outline-none p-2 w-full  bg-transparent "
+                  className="border-b border-primary-500 outline-none p-2 w-full   bg-transparent "
                 />
               </div>
               <input
                 placeholder="Write your message here*"
                 type="text"
-                className="border-b border-primary-500 outline-none p-2 w-full  bg-transparent "
+                className="border-b border-primary-500 outline-none p-2 w-full  bg-transparent  "
               />
             </form>
             <div className="w-full">

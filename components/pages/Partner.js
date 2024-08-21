@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Partner() {
   return (
-    <section className="section-container mb-8 " id="partner">
+    <section className="section-container mb-8 py-6 sm:py-20 " id="partner">
       <div className="flex flex-col items-start mx-4 md:flex-row gap-2 md:gap-6 sm:items-center">
         <div className="relative inset-0 z-20 flex items-start gap-4 md:gap-10 lg:gap-16 flex-col w-full md:w-1/2 translate-y-4 lg:translate-y-10 order-2 md:order-1">
           <h1 className="heading-style text-nowrap">Partner With Us</h1>
